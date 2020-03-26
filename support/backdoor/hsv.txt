@@ -1,0 +1,2 @@
+LowerHSV: 0:0:0
+UpperHSV: 179:255:255

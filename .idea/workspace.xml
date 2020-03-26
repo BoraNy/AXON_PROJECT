@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="20edd6b5-77de-41c5-93ef-96910e22384d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Z9F9HgblJn5XMDSJOhjH3WjaRz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cython_lib" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nyvir\MEGA\Research\AXON_Project\cython_lib" />
+      <recent name="C:\Users\nyvir\MEGA\Research\AXON_Project\support\haarcascade" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.camera">
+    <configuration name="build" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AXON_Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cython_lib" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cython_lib/build.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="camera" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AXON_Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cython_lib" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cython_lib/camera.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cmain" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AXON_Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cython_lib" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cython_lib/cmain.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="face_detection" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AXON_Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/support" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/support/face_detection.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gui_control" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AXON_Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gui_control.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.camera" />
+        <item itemvalue="Python.cmain" />
+        <item itemvalue="Python.face_detection" />
+        <item itemvalue="Python.build" />
+        <item itemvalue="Python.gui_control" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="20edd6b5-77de-41c5-93ef-96910e22384d" name="Default Changelist" comment="" />
+      <created>1584243249645</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584243249645</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="553" y="242" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585179098379">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="553" y="242" key="#com.intellij.fileTypes.FileTypeChooser/62.0.1474.864@62.0.1474.864" timestamp="1585179098379" />
+    <state x="530" y="182" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584244762105">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="530" y="182" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/62.0.1474.864@62.0.1474.864" timestamp="1584244762105" />
+    <state x="580" y="190" key="FileChooserDialogImpl" timestamp="1585204856623">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="580" y="190" key="FileChooserDialogImpl/62.0.1474.864/1920.0.1536.824@62.0.1474.864" timestamp="1584580264716" />
+    <state x="580" y="190" key="FileChooserDialogImpl/62.0.1474.864@62.0.1474.864" timestamp="1585204856623" />
+    <state width="1453" height="244" key="GridCell.Tab.0.bottom" timestamp="1585209492169">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state width="1453" height="244" key="GridCell.Tab.0.bottom/62.0.1474.864@62.0.1474.864" timestamp="1585209492169" />
+    <state width="1453" height="244" key="GridCell.Tab.0.center" timestamp="1585209492168">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state width="1453" height="244" key="GridCell.Tab.0.center/62.0.1474.864@62.0.1474.864" timestamp="1585209492168" />
+    <state width="1453" height="244" key="GridCell.Tab.0.left" timestamp="1585209492168">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state width="1453" height="244" key="GridCell.Tab.0.left/62.0.1474.864@62.0.1474.864" timestamp="1585209492168" />
+    <state width="1453" height="244" key="GridCell.Tab.0.right" timestamp="1585209492168">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state width="1453" height="244" key="GridCell.Tab.0.right/62.0.1474.864@62.0.1474.864" timestamp="1585209492168" />
+    <state width="714" height="276" key="GridCell.Tab.1.bottom" timestamp="1584261013255">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state width="714" height="276" key="GridCell.Tab.1.bottom/62.0.1474.864@62.0.1474.864" timestamp="1584261013255" />
+    <state width="714" height="276" key="GridCell.Tab.1.center" timestamp="1584261013255">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state width="714" height="276" key="GridCell.Tab.1.center/62.0.1474.864@62.0.1474.864" timestamp="1584261013255" />
+    <state width="714" height="276" key="GridCell.Tab.1.left" timestamp="1584261013255">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state width="714" height="276" key="GridCell.Tab.1.left/62.0.1474.864@62.0.1474.864" timestamp="1584261013255" />
+    <state width="714" height="276" key="GridCell.Tab.1.right" timestamp="1584261013255">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state width="714" height="276" key="GridCell.Tab.1.right/62.0.1474.864@62.0.1474.864" timestamp="1584261013255" />
+    <state x="310" y="77" key="SettingsEditor" timestamp="1585204867672">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="310" y="77" key="SettingsEditor/62.0.1474.864@62.0.1474.864" timestamp="1585204867672" />
+    <state x="830" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1585209283206">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="830" y="181" width="672" height="678" key="search.everywhere.popup/62.0.1474.864@62.0.1474.864" timestamp="1585209283206" />
+  </component>
+</project>

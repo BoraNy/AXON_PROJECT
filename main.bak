@@ -1,0 +1,99 @@
+import cv2
+import numpy as np
+from support import font, color, serial_tools, scan_image
+
+
+def nothing(x):
+    pass
+
+
+cap = cv2.VideoCapture(0)
+
+blur_ratio = 1
+
+# Create trackbar
+cv2.namedWindow('control')
+cv2.createTrackbar('color/gray', 'control', 0, 1, nothing)
+cv2.createTrackbar('Gaussian Blur', 'control', 1, 5, nothing)
+cv2.createTrackbar('L-H', 'control', 0, 179, nothing)
+cv2.createTrackbar('L-S', 'control', 0, 255, nothing)
+cv2.createTrackbar('L-V', 'control', 0, 255, nothing)
+cv2.createTrackbar('U-H', 'control', 179, 179, nothing)
+cv2.createTrackbar('U-S', 'control', 255, 255, nothing)
+cv2.createTrackbar('U-V', 'control', 255, 255, nothing)
+
+while True:
+    _, img = cap.read()
+
+    shape = img.shape
+
+    switch_mode = cv2.getTrackbarPos('color/gray', 'control')
+    # switch_mode = 0
+    blur_ratio = cv2.getTrackbarPos('Gaussian Blur', 'control')
+
+    if blur_ratio < 1:
+        blur_ratio = 1
+
+    # Blur image to reduce noise
+    img = cv2.blur(img, (blur_ratio, blur_ratio))
+
+    # Extract RGB Value to variables
+    b, g, r = cv2.split(img)
+
+    # Get value from trackbar
+    l_h = cv2.getTrackbarPos('L-H', 'control')
+    l_s = cv2.getTrackbarPos('L-S', 'control')
+    l_v = cv2.getTrackbarPos('L-V', 'control')
+    u_h = cv2.getTrackbarPos('U-H', 'control')
+    u_s = cv2.getTrackbarPos('U-S', 'control')
+    u_v = cv2.getTrackbarPos('U-V', 'control')
+
+    # Set color range
+    lower_hsv = np.array([l_h, l_s, l_v])
+    upper_hsv = np.array([u_h, u_s, u_v])
+
+    hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
+
+    # Control for converting Color to Grayscale
+    if switch_mode == 1:
+        img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    elif switch_mode == 0:
+        pass
+
+    # Make mask for color extraction
+    mask = cv2.inRange(hsv, lower_hsv, upper_hsv)
+    result = cv2.bitwise_and(img, img, mask=mask)
+
+    # Draw Rectangle and Put text
+    cv2.rectangle(img, (0, 0), (640, 1), color.green(), thickness=70)
+    cv2.putText(img, 'AXON Project', (3, 25), font.hershey_simplex(), 1, color.white())
+
+    # Blurring and Noise reduction
+    average = cv2.blur(img, (3, 3))
+    gaussian = cv2.GaussianBlur(img, (5, 5), 0)
+
+    # Activate function from Support library
+    # circle = scan_image.scan_circles(img)[3]
+    # print(f'Circle Counts: {circle}')
+
+    # OUTPUT
+    cv2.imshow('output', img)
+    # cv2.imshow('blur', average)
+    # cv2.imshow('gaussian', gaussian)
+    # cv2.imshow('hsv', mask)
+    cv2.imshow('filtered', result)
+    # plt.hist(b.ravel(), 256, [0, 256])
+    # plt.hist(g.ravel(), 256, [0, 256])
+    # plt.hist(r.ravel(), 256, [0, 256])
+    # plt.show()
+
+    # END OUTPUT
+
+    if cv2.waitKey(1) == 27:
+        break
+    if cv2.waitKey(1) == 32:
+        cv2.imwrite('backdoor/last_user/last_user.jpg', img)
+        print('saved')
+
+cap.release()
+cv2.destroyAllWindows()

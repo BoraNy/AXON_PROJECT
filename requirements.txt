@@ -1,0 +1,10 @@
+numpy
+opencv-python==3.4.2.17
+matplotlib
+pyserial
+websockets
+websocket_client
+pillow
+cryptography
+drawnow
+Cython

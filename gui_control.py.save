@@ -1,0 +1,32 @@
+# !/usr/bin/python3
+import tkinter as tk
+from tkinter import *
+
+
+sdef get_all_value():
+	label.config(text=f'x = {x_coordinate.get()}, y = {y_coordinate.get()}')
+	return x_coordinate.get(), y_coordinate.get()
+
+
+root = Tk()
+root.title('Control Panel')
+root.geometry('320x240')
+root.iconbitmap('support/img/Treetog-Junior-Tool-box.ico')
+
+x_label = Label(root, text='X-Axis')
+x_label.grid(row=0, column=0)
+x_coordinate = tk.Scale(root, length=200, from_=0, to=180, resolution=1, orient=HORIZONTAL)
+x_coordinate.grid(row=0, column=1)
+
+y_label = Label(root, text='Y-Axis')
+y_label.grid(row=1, column=0)
+y_coordinate = tk.Scale(root, length=200, from_=0, to=180, resolution=1, orient=HORIZONTAL)
+y_coordinate.grid(row=1, column=1)
+
+get_val = Button(root, text='Get', command=get_all_value)
+get_val.place(x=265, y=210)
+
+label = Label(root, text='x = 0, y = 0')
+label.place(x=5, y=210)
+
+root.mainloop()
